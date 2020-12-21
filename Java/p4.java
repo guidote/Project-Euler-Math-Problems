@@ -22,12 +22,12 @@ public class p4{
 	}
 	
 	static Boolean isPalindrome(int n) {
-	   String original, reverse = ""; // Objects of String class  
-	   original = Integer.toString(n);   
-	   int length = original.length();   
-	   for ( int i = length - 1; i >= 0; i-- )  
-		   reverse = reverse + original.charAt(i); 
-	   return original.equals(reverse);
+	   String og, re = "";
+	   og = Integer.toString(n);   
+	   int length = og.length();   
+	   for ( int i = length - 1; i >= 0; i--)  
+		   re = re + og.charAt(i); 
+	   return og.equals(re);
 	}
 
 }
